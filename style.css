@@ -1,0 +1,193 @@
+.pop7{width: 100%; height: 900px;}
+@media(max-width: 375px){.pop7 {width: 100%; height: 200px;}}
+.video{position: absolute; top:0; left:0; width: 100%; height: auto; z-index: -100;} 
+.glavnoe{width: 100%; height: 50%;}
+.text7{Font-size:150px; font-family:Benguiat Rus; animation: colololor 3s linear infinite normal; position: relative; bottom: 700px; left: 100px; font-weight: 700; text-shadow: 4px 4px 4px black;}
+@media(max-width: 375px){.text7 {Font-size:25px; font-family:Benguiat Rus; animation: colololor 3s linear infinite normal; position: absolute;z-index: 1000; position: relative; bottom: 135px; left: 40px; font-weight: 700; text-shadow: 4px 4px 4px black;}}
+@keyframes colololor {0% {color: red;} 
+                     25%{color: rgb(157, 0, 0);} 
+                     50%{color: rgb(72, 6, 0);} 
+                     75%{color: rgb(196, 7, 0);}
+                     100%{color: rgb(255, 0, 0);}}
+.pop1{
+    width: 100%; 
+    height: 7%; 
+    background-color: rgb(0, 0, 0); 
+    ; position: fixed; z-index: 100
+    }
+@media(max-width: 375px){.pop1 {width: 100%; height: 2%;background-color: rgb(0, 0, 0); 
+    ; position: fixed; z-index: 100}}
+.pop2{width: 10%; height: 100%; float: left; margin-left: 40px;}
+@media(max-width: 375px){.pop2{width: 10%; height: 100%; float: left; margin-left: 5px;}}
+.pop3{width: 200px; height: 120px; float: left; margin-left: 600px;}
+@media(max-width: 375px){.pop3{width: 50px; height: 30px; float: left; margin-left: 60px;}}
+.pop{width: 400px; height: 120px; float: left}
+@media(max-width: 375px){.pop{width: 80px; height: 30px; float: left;}}
+.pop4{width: 400px; height: 120px; float: left}
+@media(max-width: 375px){.pop4{width: 50px; height: 30px; float: left;}}
+.text{Font-size:32px; color: rgb(233, 0, 0); font-family:Benguiat Rus; margin-top: 12px; transition: all 0.2s ease-in;}
+.text:hover{Font-size:35px; opacity: 1;}
+@media(max-width: 375px){.text{Font-size:7px; color: rgb(233, 0, 0); font-family:Benguiat Rus; margin-top: 1px; transition: all 0.2s ease-in;}}
+.text1{Font-size:32px; color: rgb(233, 0, 0); font-family:Benguiat Rus; margin-top: 12px;transition: all 0.2s ease-in;}
+.text1:hover{Font-size:35px; opacity: 1;}
+@media(max-width: 375px){.text1{Font-size:7px; color: rgb(233, 0, 0); font-family:Benguiat Rus; margin-top: 1px; transition: all 0.2s ease-in;}}
+.text2{Font-size:32px; color: rgb(233, 0, 0); font-family:Benguiat Rus; margin-top: 12px;transition: all 0.2s ease-in;}
+.text2:hover{Font-size:35px; opacity: 1;}
+@media(max-width: 375px){.text2{Font-size:7px; color: rgb(233, 0, 0); font-family:Benguiat Rus; margin-top: 1px; transition: all 0.2s ease-in;}}
+@media(max-width: 375px){.text3{Font-size:7px; color: rgb(233, 0, 0); font-family:Benguiat Rus; margin-top: 1px; transition: all 0.2s ease-in;}}
+@media(max-width: 375px){.text4{Font-size:6px; color: rgb(233, 0, 0); font-family:Benguiat Rus; margin-top: 1px; transition: all 0.2s ease-in;}}
+.foto{width: 25%; height: 55%; position: relative; bottom: 1150px; position: relative; left: 1370px;opacity: 0.3} 
+.foto:hover{opacity: 1;}
+@media(max-width: 375px){.foto {width: 25%; height: 55%; position: relative; bottom: 230px; position: relative; left: 270px;opacity: 0.3}}
+.foto1{width: 25%; height: 55%; position: relative; bottom: 1800px; position: relative; left: 50px;opacity: 0.3}
+.foto1:hover{opacity: 1;}
+@media(max-width: 375px){.foto1 {width: 25%; height: 55%; position: relative; bottom: 360px; position: relative; left: 10px;opacity: 0.3}}
+.menu{width: 100%; height: 100px; position: relative; bottom: 1650px;}
+@media(max-width: 375px){.menu{width: 100%; height: 30px; position: relative; bottom: 350px;}}
+.text5{Font-size:80px; color: rgb(255, 0, 0); font-family:Benguiat Rus; text-align: center;}
+@media(max-width: 375px){.text5{Font-size:20px; color: rgb(255, 0, 0); font-family:Benguiat Rus; text-align: center;}}
+.pop6{
+width: 100%; 
+height: 200%;
+background-color: rgb(0, 0, 0);}
+@media(max-width: 375px){.pop6{width: 100%; 
+height: 200%;}}
+    .pop8{display: grid; border: none; position: relative; bottom: 1500px;
+        grid-template-columns: repeat(2, 600px);
+        grid-template-rows: repeat(2, 400px);
+        grid-template-areas: "lef lef1 lef1"
+                           "lef lef1 lef1";}
+    @media(max-width: 375px){.pop8{display: grid; border: none; position: relative; bottom: 330px;
+        grid-template-columns: repeat(2, 170px);
+        grid-template-rows: repeat(2, 80px);
+        grid-template-areas: "lef lef1 lef1"
+                           "lef lef1 lef1";}}
+                           .gri{grid-area: lef; background-color: rgb(141, 30, 30);}
+                           .gri1{grid-area: lef1; background-color:  rgb(141, 30, 30); opacity: 0.5;transition: all 0.2s ease-in;}
+                           .gri1:hover{text-align: center; opacity: 1;}
+                           .text4{Font-size:30px; color: rgb(0, 0, 0); font-family:Benguiat Rus; opacity: 0.4;transition: all 0.2s ease-in;}
+                           @media(max-width: 375px){.text4{Font-size:7px; color: rgb(0, 0, 0); font-family:Benguiat Rus; opacity: 0.4;transition: all 0.2s ease-in;}}
+                           .text4:hover{text-align: center; opacity: 1;}
+.menu1{width: 100%; height: 100px; position: relative; bottom: 1500px;}
+@media(max-width: 375px){.menu1{width: 100%; height: 50px; position: relative; bottom: 330px;}}
+.text6{Font-size:70px; color: rgb(255, 0, 0); font-family:Benguiat Rus; text-align: center;}
+@media(max-width: 375px){.text6{Font-size:20px; color: rgb(255, 0, 0); font-family:Benguiat Rus; text-align: center}}
+.pop9{display: grid; border: none; position: relative; bottom: 1400px; left:130px;
+    grid-template-columns: repeat(5, 330px);
+    grid-template-rows: repeat(4, 330px);
+    grid-template-areas: "ff ff gg gg dd"
+                         "vv bb aa aa ss"
+                         "vv bb mm mm xx"
+                         "cc cc zz kk kk"}
+@media(max-width: 375px){.pop9{display: grid; border: none; position: relative; bottom: 340px; left:30px;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(4, 60px);
+    grid-template-areas: "ff ff gg gg dd"
+                         "vv bb aa aa ss"
+                         "vv bb mm mm xx"
+                         "cc cc zz kk kk"}}                     
+.bob{grid-area: ff; border: 2px solid red;opacity: 0.7}
+.bob1{grid-area: gg; border: 2px solid red;opacity: 0.7}
+.bob2{grid-area: dd; border: 2px solid red;opacity: 0.7}
+.bob3{grid-area: vv; border: 2px solid red;opacity: 0.7}
+.bob4{grid-area: bb; border: 2px solid red;opacity: 0.7}
+.bob5{grid-area: aa; border: 2px solid red;opacity: 0.7}
+.bob6{grid-area: ss; border: 2px solid red;opacity: 0.7}
+.bob7{grid-area: mm; border: 2px solid red;opacity: 0.7}
+.bob8{grid-area: xx; border: 2px solid red;opacity: 0.7}
+.bob9{grid-area: cc; border: 2px solid red;opacity: 0.7}
+.bob10{grid-area: zz; border: 2px solid red;opacity: 0.7}
+.bob11{grid-area: kk; border: 2px solid red; opacity: 0.7;}
+.bob:hover{opacity: 1;}
+.bob1:hover{opacity: 1;}
+.bob2:hover{opacity: 1;}
+.bob3:hover{opacity: 1;}
+.bob4:hover{opacity: 1;}
+.bob5:hover{opacity: 1;}
+.bob6:hover{opacity: 1;}
+.bob7:hover{opacity: 1;}
+.bob8:hover{opacity: 1;}
+.bob9:hover{opacity: 1;}
+.bob10:hover{opacity: 1;}
+.bob11:hover{opacity: 1;}
+.pop10{width: 100%; height: 100px; position: relative; bottom: 1200px}
+@media(max-width: 375px){.pop10{width: 100%; height: 50px; position: relative; bottom: 350px}}
+.text8{Font-size:70px; color: rgb(255, 0, 0); font-family:Benguiat Rus; text-align: center;}
+@media(max-width: 375px){.text8{Font-size:20px; color: rgb(255, 0, 0); font-family:Benguiat Rus; text-align: center;}}
+.akter{display: grid; border: none; position: relative; bottom: 1000px; left: 60px;
+    grid-template-columns: repeat(5, 360px);
+    grid-template-rows: repeat(4, 440px);
+    grid-template-areas: "mam pap dad mem rer"
+                         "sas waw qaq qeq fef"
+                         "kek ded prp vev pep"
+                         "nnn bbb vvv zzz non"}
+@media(max-width: 375px){.akter{display: grid; border: none; position: relative; bottom: 350px; left: 30px;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(4, 50px);
+    grid-template-areas: "mam pap dad mem rer"
+                         "sas waw qaq qeq fef"
+                         "kek ded prp vev pep"
+                         "nnn bbb vvv zzz non"}}
+.akt{grid-area: mam; border: 2px solid red}   
+.akt1{grid-area: pap; border: 2px solid red} 
+.akt2{grid-area: dad; border: 2px solid red} 
+.akt3{grid-area: mem; border: 2px solid red} 
+.akt4{grid-area: rer; border: 2px solid red} 
+.akt5{grid-area: sas; border: 2px solid red} 
+.akt6{grid-area: waw; border: 2px solid red} 
+.akt7{grid-area: qaq; border: 2px solid red} 
+.akt8{grid-area: qeq; border: 2px solid red} 
+.akt9{grid-area: fef; border: 2px solid red} 
+.akt0{grid-area: kek; border: 2px solid red} 
+.akt11{grid-area: ded; border: 2px solid red} 
+.akt12{grid-area: prp; border: 2px solid red} 
+.akt13{grid-area: vev; border: 2px solid red} 
+.akt14{grid-area: pep; border: 2px solid red} 
+.akt15{grid-area: nnn; border: 2px solid red} 
+.akt16{grid-area: bbb; border: 2px solid red} 
+.akt17{grid-area: vvv; border: 2px solid red} 
+.akt18{grid-area: zzz; border: 2px solid red} 
+.akt19{grid-area: non; border: 2px solid red}
+  
+.tex{Font-size:26px; color: rgb(255, 89, 89); font-family:Benguiat Rus; text-align: center; position: relative; bottom: 15px;}  
+@media(max-width: 375px){.tex{Font-size:4px; color: rgb(255, 89, 89); font-family:Benguiat Rus; text-align: center; position: relative; bottom: 8px;}}
+.tex1{Font-size:24px; color: rgb(255, 89, 89); font-family:Benguiat Rus; text-align: center; position: relative; bottom: 10px;}        
+@media(max-width: 375px){.tex1{Font-size:4px; color: rgb(255, 89, 89); font-family:Benguiat Rus; text-align: center; position: relative; bottom: 8px;}}     
+.tex2{Font-size:22px; color: rgb(255, 89, 89); font-family:Benguiat Rus; text-align: center; position: relative; bottom: 10px;}        
+@media(max-width: 375px){.tex2{Font-size:3px; color: rgb(255, 89, 89); font-family:Benguiat Rus; text-align: center; position: relative; bottom: 8px;}} 
+
+
+.roc{display: grid;
+grid-template-columns: repeat(2, 950px);
+grid-template-rows: repeat(2, 250px);
+grid-template-areas: "bam bam1"
+"bam2 bam3"}
+@media(max-width: 375px){.roc{display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 50px);
+    grid-template-areas: "bam bam1"
+    "bam2 bam3"}}
+.grii{grid-area: bam; background-color: rgb(255, 0, 0);}
+.grii1{grid-area: bam1;background-color: rgb(255, 0, 0);}
+.grii2{grid-area: bam2;background-color: rgb(255, 0, 0);}
+.grii3{grid-area: bam3;background-color: rgb(255, 0, 0);}
+.xip{font-family: benguiat-ru; font-size: 50px; margin-left: 150px; 
+color: rgb(210, 40, 40); border: none;}
+@media(max-width: 375px){.xip{font-family: benguiat-ru; font-size: 20px; margin-left: 30px; 
+    color: rgb(210, 40, 40); border: none;}}
+.xip1{font-family: benguiat-ru; font-size: 50px; margin-left: 150px; 
+    color: rgb(210, 40, 40); border: none;}
+    @media(max-width: 375px){.xip1{font-family: benguiat-ru; font-size: 20px; margin-left: 30px; 
+        color: rgb(210, 40, 40); border: none;}}
+.xip2{font-family: benguiat-ru; font-size: 50px; 
+            color: rgb(120, 0, 0); border: none;}
+            @media(max-width: 375px){.xip2{font-family: benguiat-ru; font-size: 14px; 
+                color: rgb(210, 40, 40); border: none;}}
+.futer1{width: 50%; height: 70%; position: relative; bottom: 700px; animation: demon 2s linear 0s infinite normal;} 
+@keyframes demon {0%{margin-left: 100px;}
+                   50%{margin-left: 50px;}
+                   100%{margin-left: 100px;}}
+                   @media(max-width: 375px){.futer1{width: 50%; height: 70%; position: relative; bottom: 100px;}}
+.futer{width: 100%; height: 20%; margin-top: 100px;position: relative; bottom: 700px} 
+.text8{Font-size:80px; color: rgb(255, 0, 0); font-family:Benguiat Rus; text-align: center; position: relative; bottom: 700px}
+@media(max-width: 375px){.text8{Font-size:20px; color: rgb(255, 0, 0); font-family:Benguiat Rus; text-align: center; position: relative; top: 400px}}
